@@ -1,5 +1,25 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: green;
+}
+.card {
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+   justify-content: center;
+   margin: auto;
+   margin-top: 10px;
+}
+.top {
+    position: absolute;
+    top: 0;
+    margin-left: 5px;
+}
+.bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 5px;
+    transform: rotate(180deg);
 }
